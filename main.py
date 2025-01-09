@@ -18,7 +18,7 @@ def process_form():
     button_discord = request.form.get('button_discord')
     button_html = request.form.get('button_html')
     button_bd = request.form.get('button_bd')
-    return render_template('index.html', button_python=button_python, button_discord=button_discord, button_html=button_html, button_bd=button_bd)
+    return render_template('index.html', button_python=button_python, button_discord=button_discord, button_html=button_html, button_bd=button_bd,)
 
 
 if __name__ == "__main__":
